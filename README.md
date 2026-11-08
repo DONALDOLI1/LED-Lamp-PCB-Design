@@ -94,14 +94,31 @@ L'alimentation étudiée ne possède pas d'isolation galvanique entre le secteur
 
 ### Galerie du projet
 
-Les images suivantes présentent différentes vues des conceptions et des configurations de panélisation préparées pour ce projet. Elles documentent le travail réalisé sous KiCad et ne représentent pas un prototype physiquement fabriqué.
+La galerie présente les neuf images déposées dans le répertoire `images/` : une photographie illustrative montrant le type de lampe concerné, quatre vues avant des conceptions PCB et quatre vues arrière. Les vues avant et arrière permettent de comparer les deux faces des cartes. Elles documentent la conception sous KiCad et ne représentent pas un prototype physiquement fabriqué.
 
-| Vue | Aperçu |
+#### Aspect de la lampe LED
+
+![Lampe LED de référence](images/lampe-led-classic-smd-e27-4000k-kodak-led-lighting-square-1000x1000.jpg)
+
+<sub>Photographie illustrative du type de lampe LED concerné — image de référence, et non photographie d'un prototype fabriqué dans le cadre de ce projet.</sub>
+
+#### Vues avant des conceptions PCB
+
+| Vue avant | Aperçu |
 |---|---|
-| Conception générale du circuit LED | ![Conception générale](images/AMPOULE%20LED%20ECO-2.png) |
-| Conception de la carte rectangulaire | ![Carte rectangulaire](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
-| Configuration de panélisation 1 | ![Panélisation 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) |
-| Configuration de panélisation 2 | ![Panélisation 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
+| Vue avant – carte LED | ![Vue avant carte LED](images/AMPOULE%20LED%20ECO-2.jpg) |
+| Vue avant – carte rectangulaire | ![Vue avant carte rectangulaire](images/AMPOULE%20LED%20ECO%20RECT-2.jpg) |
+| Vue avant – panélisation 1 | ![Vue avant panélisation 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.jpg) |
+| Vue avant – panélisation 2 | ![Vue avant panélisation 2](images/AMPOULE%20LED%20ECO%20PANEL-2.jpg) |
+
+#### Vues arrière des conceptions PCB
+
+| Vue arrière | Aperçu |
+|---|---|
+| Vue arrière – carte LED | ![Vue arrière carte LED](images/AMPOULE%20LED%20ECO-2.png) |
+| Vue arrière – carte rectangulaire | ![Vue arrière carte rectangulaire](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
+| Vue arrière – panélisation 1 | ![Vue arrière panélisation 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) |
+| Vue arrière – panélisation 2 | ![Vue arrière panélisation 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
 
 ### État et limites du projet
 
@@ -180,14 +197,31 @@ The studied power supply does not provide galvanic isolation between the mains a
 
 ### Project gallery
 
-The following images show different views of the designs and panel configurations prepared for this project. They document the KiCad design work and do not represent a physically manufactured prototype.
+The gallery contains all nine images uploaded to the `images/` directory: one illustrative photograph showing the type of LED lamp, four front views of the PCB designs, and four rear views. The front and rear views allow both sides of the boards to be compared. They document the KiCad design work and do not represent a physically manufactured prototype.
 
-| View | Preview |
+#### LED lamp appearance
+
+![Reference LED lamp](images/lampe-led-classic-smd-e27-4000k-kodak-led-lighting-square-1000x1000.jpg)
+
+<sub>Illustrative photograph of the LED lamp type — reference image, not a photograph of a prototype manufactured as part of this project.</sub>
+
+#### Front views of the PCB designs
+
+| Front view | Preview |
 |---|---|
-| General LED circuit design | ![General design](images/AMPOULE%20LED%20ECO-2.png) |
-| Rectangular board design | ![Rectangular board](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
-| Panelization configuration 1 | ![Panelization 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) |
-| Panelization configuration 2 | ![Panelization 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
+| Front view – LED board | ![LED board front view](images/AMPOULE%20LED%20ECO-2.jpg) |
+| Front view – rectangular board | ![Rectangular board front view](images/AMPOULE%20LED%20ECO%20RECT-2.jpg) |
+| Front view – panelization 1 | ![Panelization 1 front view](images/AMPOULE%20LED%20ECO%20PANEL1-2.jpg) |
+| Front view – panelization 2 | ![Panelization 2 front view](images/AMPOULE%20LED%20ECO%20PANEL-2.jpg) |
+
+#### Rear views of the PCB designs
+
+| Rear view | Preview |
+|---|---|
+| Rear view – LED board | ![LED board rear view](images/AMPOULE%20LED%20ECO-2.png) |
+| Rear view – rectangular board | ![Rectangular board rear view](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
+| Rear view – panelization 1 | ![Panelization 1 rear view](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) |
+| Rear view – panelization 2 | ![Panelization 2 rear view](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
 
 ### Project status and limitations
 
