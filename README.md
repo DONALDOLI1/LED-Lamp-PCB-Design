@@ -1,69 +1,89 @@
-# 💡 LED Lamp PCB Design – T-Bulb
-### Reproduction électronique et conception de circuits imprimés sous KiCad
+<div align="center">
 
-🇫🇷 Français | 🇬🇧 English
+# LED Lamp PCB Design – T-Bulb
+
+**OLITECH · Reproduction électronique et conception de circuits imprimés**
+
+![Project stage](https://img.shields.io/badge/Project-Design%20stage-orange)
+![CAD](https://img.shields.io/badge/CAD-KiCad-blue)
+![Mains voltage](https://img.shields.io/badge/Voltage-220--240V%20AC-red)
+![Languages](https://img.shields.io/badge/README-FR%20%7C%20EN-informational)
+
+*Reproducing and designing an LED lamp electronic circuit with KiCad.*
+
+</div>
 
 ---
 
-# 🇫🇷 Version française
+**Brand / Marque:** OLITECH  
+**Designer / Concepteur:** OLI OLI DONALD  
+**Country / Pays:** Cameroon / Cameroun  
+**Design software / Logiciel de conception:** KiCad EDA  
+**Contact:** [oliolidonald186@gmail.com](mailto:oliolidonald186@gmail.com)
 
-## 1. Présentation du projet
+## Table of contents
 
-Ce projet porte sur la reproduction et la conception sous **KiCad EDA** du circuit électronique d'une lampe LED économique de type T-Bulb.
+- [Français](#-français)
+  - [Présentation](#présentation)
+  - [Architecture électronique](#architecture-électronique)
+  - [Caractéristiques techniques](#caractéristiques-techniques)
+  - [Travaux réalisés](#travaux-réalisés)
+  - [Galerie du projet](#galerie-du-projet)
+  - [État et limites du projet](#état-et-limites-du-projet)
+  - [Avertissement de sécurité](#avertissement-de-sécurité)
+  - [Fichiers du projet](#fichiers-du-projet)
+- [English](#-english)
+  - [Overview](#overview)
+  - [Electronic architecture](#electronic-architecture)
+  - [Technical specifications](#technical-specifications)
+  - [Work completed](#work-completed)
+  - [Project gallery](#project-gallery)
+  - [Project status and limitations](#project-status-and-limitations)
+  - [Safety warning](#safety-warning)
+  - [Project files](#project-files)
+- [Contact](#contact)
 
-Le travail consiste à redessiner l'architecture électronique de la lampe et à concevoir les circuits imprimés correspondants. Il comprend notamment une carte d'alimentation et une carte destinée à recevoir les LED.
+---
 
-L'étude comprend également le routage des PCB et la préparation de panneaux regroupant plusieurs cartes, dans une perspective de fabrication.
+## 🇫🇷 Français
 
-**Il s'agit d'un travail de reproduction et de conception électronique, et non de la fabrication d'une lampe originale.**
+### Présentation
 
-## 2. Aperçu des conceptions
+**LED Lamp PCB Design – T-Bulb** est un projet de reproduction du circuit électronique d'une lampe LED économique, avec conception des circuits imprimés sous **KiCad EDA**.
 
-### 2.1. Conception des cartes électroniques
+Le travail consiste à redessiner l'architecture électronique de la lampe et à concevoir les PCB correspondants, comprenant une carte d'alimentation et une carte destinée à recevoir les LED.
 
-Les vues suivantes présentent différentes représentations des circuits imprimés étudiés.
+Le projet comprend également le routage des pistes et l'étude de la panélisation de plusieurs cartes.
 
-| Vue générale de la conception | Vue de la carte rectangulaire |
-|:---:|:---:|
-| ![Vue générale](images/AMPOULE%20LED%20ECO-2.png) | ![Carte rectangulaire](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
+Il s'agit d'un travail de reproduction et de conception électronique. La lampe n'a pas été fabriquée physiquement.
 
-### 2.2. Panélisation des circuits imprimés
+### Architecture électronique
 
-Les vues ci-dessous présentent les configurations de panneaux préparées dans le cadre de l'étude de panélisation.
+Le système étudié repose sur deux ensembles complémentaires :
 
-| Configuration de panneau 1 | Configuration de panneau 2 |
-|:---:|:---:|
-| ![Panneau 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) | ![Panneau 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
+- **Carte d'alimentation (Driver) :** reproduction d'une alimentation capacitive sans transformateur, avec redressement par pont de diodes et filtrage.
+- **Carte LED :** support d'une matrice circulaire composée de 18 LED SMD.
 
-## 3. Caractéristiques techniques
+L'alimentation étudiée ne possède pas d'isolation galvanique entre le secteur et le circuit.
+
+### Caractéristiques techniques
 
 | Paramètre | Description |
 |---|---|
-| Projet | Reproduction d'un circuit de lampe LED économique |
-| Application | Éclairage LED de type T-Bulb |
+| Application | Lampe LED économique de type T-Bulb |
 | Logiciel de conception | KiCad EDA |
-| Tension cible | 220–240 V AC |
-| Alimentation étudiée | Capacitive, sans transformateur |
+| Tension secteur cible | 220–240 V AC |
+| Type d'alimentation étudiée | Capacitive, sans transformateur |
 | Isolation galvanique | Absente |
 | Redressement | Pont redresseur |
 | Filtrage | Circuit de filtrage |
 | Source lumineuse | 18 LED SMD |
-| Organisation lumineuse | Matrice circulaire |
-| Travail effectué | Conception et routage PCB |
-| Panélisation | Configuration 12-en-1 étudiée |
-| Fabrication physique | Non réalisée |
-| Essais expérimentaux | Non réalisés |
+| Disposition des LED | Matrice circulaire |
+| Conception | Schéma et circuits imprimés |
+| Routage PCB | Réalisé |
+| Panélisation | Étude d'une configuration 12-en-1 |
 
-## 4. Architecture électronique
-
-Le système étudié repose sur deux ensembles complémentaires :
-
-- **Carte d'alimentation (Driver) :** reproduction du circuit d'alimentation capacitive non isolée, avec redressement et filtrage.
-- **Carte LED :** support de la matrice circulaire de 18 LED SMD.
-
-Les deux cartes constituent l'architecture électronique de la lampe reproduite.
-
-## 5. Travaux réalisés
+### Travaux réalisés
 
 - Reproduction du circuit électronique d'une lampe LED économique.
 - Dessin et organisation des circuits sous KiCad.
@@ -72,101 +92,84 @@ Les deux cartes constituent l'architecture électronique de la lampe reproduite.
 - Préparation de configurations de panélisation.
 - Étude d'un agencement de 12 cartes par panneau.
 
-## 6. Outils et technologies
+### Galerie du projet
 
-- KiCad EDA
-- Conception de schémas électroniques
-- Routage de circuits imprimés
-- Électronique de puissance
-- Éclairage LED
-- Panélisation PCB
+Les images suivantes présentent différentes vues des conceptions et des configurations de panélisation préparées pour ce projet. Elles documentent le travail réalisé sous KiCad et ne représentent pas un prototype physiquement fabriqué.
 
-## 7. État d'avancement
+| Vue | Aperçu |
+|---|---|
+| Conception générale du circuit LED | ![Conception générale](images/AMPOULE%20LED%20ECO-2.png) |
+| Conception de la carte rectangulaire | ![Carte rectangulaire](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
+| Configuration de panélisation 1 | ![Panélisation 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) |
+| Configuration de panélisation 2 | ![Panélisation 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
 
-- **Conception électronique :** réalisée.
-- **Routage PCB :** réalisé.
-- **Étude de panélisation :** réalisée.
-- **Fabrication physique :** non réalisée.
-- **Tests et validation expérimentale :** non réalisés.
+### État et limites du projet
 
-Ce dépôt documente donc un travail de conception assistée par ordinateur. Il ne constitue pas une preuve de fonctionnement électrique ou de conformité à une norme de sécurité.
+| Élément | État |
+|---|---|
+| Reproduction du circuit électronique | Réalisée |
+| Conception des PCB | Réalisée |
+| Routage des pistes | Réalisé |
+| Étude de panélisation | Réalisée |
+| Fabrication physique | Non réalisée |
+| Essais sur prototype physique | Non réalisés |
+| Validation expérimentale | Non réalisée |
 
-## 8. Avertissement de sécurité
+> **Important :** ce projet est actuellement au stade de conception numérique. Les images présentent les travaux de conception et de panélisation ; elles ne prouvent pas le fonctionnement électrique du circuit.
 
-**DANGER – SECTEUR 220–240 V AC**
+### Avertissement de sécurité
 
-La topologie étudiée utilise une alimentation capacitive sans isolation galvanique. Certaines parties du circuit peuvent donc être portées à un potentiel électrique dangereux.
+> **DANGER – TENSION SECTEUR 220–240 V AC**
+>
+> Le circuit étudié utilise une alimentation capacitive sans isolation galvanique. Certaines parties du circuit peuvent donc être portées à un potentiel électrique dangereux.
+>
+> Ne pas connecter une carte à une prise secteur et ne pas manipuler un circuit sous tension. Toute fabrication ou mise en service éventuelle nécessiterait une étude approfondie des protections électriques, des distances d'isolement, de la dissipation thermique et de l'enveloppe de protection, ainsi qu'une validation par une personne qualifiée.
 
-Cette documentation est destinée à la présentation d'un travail de conception électronique.
+### Fichiers du projet
 
-Ne pas connecter une carte à une prise secteur et ne pas manipuler un circuit sous tension. Toute fabrication ou mise en service éventuelle nécessiterait une étude approfondie des protections, des distances d'isolement, de la dissipation thermique et de l'enveloppe de protection, ainsi qu'une validation par une personne qualifiée.
-
-## 9. Concepteur
-
-- **Conception et routage :** OLI OLI DONALD
-- **Projet :** LED-Lamp-PCB-Design
-- **Origine :** Cameroun 🇨🇲
-- **Logiciel :** KiCad EDA
+Les fichiers sources KiCad (schéma et circuit imprimé) ne sont pas publiés dans ce dépôt. Le dépôt présente la documentation et les images du projet.
 
 ---
 
-# 🇬🇧 English Version
+## 🇬🇧 English
 
-## 1. Project Overview
+### Overview
 
-This project focuses on reproducing and designing, using **KiCad EDA**, the electronic circuit of an energy-saving LED lamp of the T-Bulb type.
+**LED Lamp PCB Design – T-Bulb** is a project focused on reproducing the electronic circuit of an energy-saving LED lamp and designing its printed circuit boards using **KiCad EDA**.
 
-The work involves redrawing the lamp's electronic architecture and designing the corresponding printed circuit boards. It includes a power supply board and a board designed to accommodate the LEDs.
+The work involves redrawing the lamp's electronic architecture and designing the corresponding PCBs, including a power supply board and a board designed to accommodate the LEDs.
 
-The study also covers PCB routing and the preparation of multi-board panels for potential manufacturing.
+The project also includes PCB track routing and a study of multi-board panelization.
 
-**This is an electronic reproduction and design project, not the development or physical manufacturing of an original lamp.**
+This is an electronic reproduction and design project. The lamp has not been physically manufactured.
 
-## 2. Design Overview
+### Electronic architecture
 
-### 2.1. Electronic Board Designs
+The studied system is based on two complementary assemblies:
 
-| General design view | Rectangular board view |
-|:---:|:---:|
-| ![General view](images/AMPOULE%20LED%20ECO-2.png) | ![Rectangular board](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
+- **Power supply board (Driver):** reproduction of a transformerless capacitive power supply, including bridge rectification and filtering.
+- **LED board:** support for a circular array of 18 SMD LEDs.
 
-### 2.2. PCB Panelization
+The studied power supply does not provide galvanic isolation between the mains and the circuit.
 
-The following images show panel configurations prepared as part of the PCB panelization study.
-
-| Panel configuration 1 | Panel configuration 2 |
-|:---:|:---:|
-| ![Panel 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) | ![Panel 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
-
-## 3. Technical Specifications
+### Technical specifications
 
 | Parameter | Description |
 |---|---|
-| Project | Reproduction of an energy-saving LED lamp circuit |
-| Application | T-Bulb LED lighting |
+| Application | T-Bulb energy-saving LED lamp |
 | Design software | KiCad EDA |
-| Target voltage | 220–240 V AC |
+| Target mains voltage | 220–240 V AC |
 | Studied power supply | Transformerless capacitive supply |
 | Galvanic isolation | None |
 | Rectification | Bridge rectifier |
 | Filtering | Filtering circuit |
 | Light source | 18 SMD LEDs |
 | LED arrangement | Circular matrix |
-| Work completed | PCB design and routing |
+| Design work | Schematic and PCB design |
+| PCB routing | Completed |
 | Panelization | 12-in-1 configuration study |
-| Physical manufacturing | Not performed |
-| Experimental testing | Not performed |
 
-## 4. Electronic Architecture
-
-The studied system is based on two complementary assemblies:
-
-- **Power supply board (Driver):** reproduction of the non-isolated capacitive power supply circuit, including rectification and filtering.
-- **LED board:** support for the circular array of 18 SMD LEDs.
-
-Together, these boards form the electronic architecture of the reproduced lamp.
-
-## 5. Work Completed
+### Work completed
 
 - Reproduction of an energy-saving LED lamp electronic circuit.
 - Electronic drawing and organization using KiCad.
@@ -175,42 +178,49 @@ Together, these boards form the electronic architecture of the reproduced lamp.
 - Preparation of panelization configurations.
 - Study of a 12-board-per-panel arrangement.
 
-## 6. Tools and Technologies
+### Project gallery
 
-- KiCad EDA
-- Electronic schematic design
-- PCB routing
-- Power electronics
-- LED lighting
-- PCB panelization
+The following images show different views of the designs and panel configurations prepared for this project. They document the KiCad design work and do not represent a physically manufactured prototype.
 
-## 7. Project Status
+| View | Preview |
+|---|---|
+| General LED circuit design | ![General design](images/AMPOULE%20LED%20ECO-2.png) |
+| Rectangular board design | ![Rectangular board](images/AMPOULE%20LED%20ECO%20RECT-2.png) |
+| Panelization configuration 1 | ![Panelization 1](images/AMPOULE%20LED%20ECO%20PANEL1-2.png) |
+| Panelization configuration 2 | ![Panelization 2](images/AMPOULE%20LED%20ECO%20PANEL-2.png) |
 
-- **Electronic design:** completed.
-- **PCB routing:** completed.
-- **Panelization study:** completed.
-- **Physical manufacturing:** not performed.
-- **Experimental testing and validation:** not performed.
+### Project status and limitations
 
-This repository documents a computer-aided electronic design project. It does not demonstrate electrical operation or compliance with safety standards.
+| Item | Status |
+|---|---|
+| Electronic circuit reproduction | Completed |
+| PCB design | Completed |
+| PCB track routing | Completed |
+| Panelization study | Completed |
+| Physical manufacturing | Not performed |
+| Physical prototype testing | Not performed |
+| Experimental validation | Not performed |
 
-## 8. Safety Warning
+> **Important:** this project is currently at the digital design stage. The images show the design and panelization work; they do not demonstrate electrical operation of the circuit.
 
-**DANGER – 220–240 V AC MAINS VOLTAGE**
+### Safety warning
 
-The studied topology uses a capacitive power supply without galvanic isolation. Some parts of the circuit may therefore carry dangerous electrical potentials.
+> **DANGER – 220–240 V AC MAINS VOLTAGE**
+>
+> The studied circuit uses a capacitive power supply without galvanic isolation. Some parts of the circuit may therefore carry dangerous electrical potentials.
+>
+> Do not connect a board to a mains outlet or handle an energized circuit. Any potential manufacturing or commissioning would require a thorough assessment of electrical protection, insulation distances, thermal dissipation and protective enclosure design, as well as validation by a qualified professional.
 
-This documentation is intended to present an electronic design project.
+### Project files
 
-Do not connect a board to a mains outlet or handle an energized circuit. Any potential manufacturing or commissioning would require a thorough assessment of electrical protection, insulation distances, thermal dissipation and protective enclosure design, as well as review by a qualified professional.
-
-## 9. Designer
-
-- **PCB Design and Routing:** OLI OLI DONALD
-- **Project:** LED-Lamp-PCB-Design
-- **Origin:** Cameroon 🇨🇲
-- **Software:** KiCad EDA
+The KiCad source files (schematic and PCB layout) are not published in this repository. The repository presents the project documentation and images.
 
 ---
 
-*© OLI OLI DONALD – Educational electronic design project.*
+## Contact
+
+**OLI OLI DONALD · OLITECH**  
+Cameroon  
+Email: [oliolidonald186@gmail.com](mailto:oliolidonald186@gmail.com)
+
+*OLITECH — Electronic design and practical engineering.*
