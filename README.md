@@ -32,6 +32,7 @@
   - [État et limites du projet](#état-et-limites-du-projet)
   - [Avertissement de sécurité](#avertissement-de-sécurité)
   - [Fichiers du projet](#fichiers-du-projet)
+  - [Documentation technique](#documentation-technique)
 - [English](#-english)
   - [Overview](#overview)
   - [Electronic architecture](#electronic-architecture)
@@ -41,6 +42,7 @@
   - [Project status and limitations](#project-status-and-limitations)
   - [Safety warning](#safety-warning)
   - [Project files](#project-files)
+  - [Technical Documentation](#technical-documentation)
 - [Contact](#contact)
 
 ---
@@ -146,6 +148,18 @@ La galerie présente les neuf images déposées dans le répertoire `images/` : 
 
 Les fichiers sources KiCad (schéma et circuit imprimé) ne sont pas publiés dans ce dépôt. Le dépôt présente la documentation et les images du projet.
 
+### Documentation technique
+
+Les documents techniques du projet seront regroupés dans le répertoire
+[`documents/`](documents/).
+
+Les fichiers PDF seront ajoutés progressivement, notamment :
+- Le schéma électronique de la carte d'alimentation.
+- Le schéma électronique de la carte LED.
+- Les vues côté composants.
+- Les typons des circuits imprimés.
+- Les documents relatifs à la panélisation.
+
 ---
 
 ## 🇬🇧 English
@@ -248,6 +262,18 @@ The gallery contains all nine images uploaded to the `images/` directory: one il
 ### Project files
 
 The KiCad source files (schematic and PCB layout) are not published in this repository. The repository presents the project documentation and images.
+
+### Technical Documentation
+
+The project's technical documents will be stored in the
+[`documents/`](documents/) directory.
+
+PDF files will be added progressively, including:
+- The power supply board schematic.
+- The LED board schematic.
+- Component-side views.
+- PCB manufacturing artworks.
+- Panelization documentation.
 
 ---
 
