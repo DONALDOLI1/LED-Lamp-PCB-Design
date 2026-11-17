@@ -153,8 +153,8 @@ Les fichiers sources KiCad (schéma et circuit imprimé) ne sont pas publiés da
 Les documents techniques du projet sont disponibles dans le répertoire [`documents/`](documents/).
 
 - [Schéma électronique – Lampe LED économique](documents/schematic%20lamp%20eco.pdf)
-- [Implantation des composants – Version 1](documents/implantation%20composats%201lamp%20eco.pdf)
-- [Implantation des composants – Version 2](documents/implantation%20composats%202%20lamp%20eco.pdf)
+- [Implantation des composants – 1](documents/implantation%20composats%201lamp%20eco.pdf)
+- [Implantation des composants – 2](documents/implantation%20composats%202%20lamp%20eco.pdf)
 - [Typon du circuit imprimé](documents/typon%20lamp%20eco.pdf)
 
 ---
@@ -265,8 +265,8 @@ The KiCad source files (schematic and PCB layout) are not published in this repo
 The project's technical documents are available in the [`documents/`](documents/) directory.
 
 - [Electronic schematic – LED lamp](documents/schematic%20lamp%20eco.pdf)
-- [Component placement – Version 1](documents/implantation%20composats%201lamp%20eco.pdf)
-- [Component placement – Version 2](documents/implantation%20composats%202%20lamp%20eco.pdf)
+- [Component placement – 1](documents/implantation%20composats%201lamp%20eco.pdf)
+- [Component placement – 2](documents/implantation%20composats%202%20lamp%20eco.pdf)
 - [PCB artwork](documents/typon%20lamp%20eco.pdf)
 
 ---
